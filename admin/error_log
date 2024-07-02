@@ -1,0 +1,253 @@
+[12-Apr-2024 14:06:30 UTC] PHP Warning:  include_once(/home/slmyid/public_html/joki/new/admin/inc/header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/index.php on line 1
+[12-Apr-2024 14:06:30 UTC] PHP Warning:  include_once(): Failed opening '/home/slmyid/public_html/joki/new/admin/inc/header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/index.php on line 1
+[12-Apr-2024 14:06:30 UTC] PHP Warning:  include_once(/home/slmyid/public_html/joki/new/admin/inc/footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/index.php on line 12
+[12-Apr-2024 14:06:30 UTC] PHP Warning:  include_once(): Failed opening '/home/slmyid/public_html/joki/new/admin/inc/footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/index.php on line 12
+[12-Apr-2024 14:07:22 UTC] PHP Warning:  include_once(/inc/header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/index.php on line 1
+[12-Apr-2024 14:07:22 UTC] PHP Warning:  include_once(): Failed opening '/inc/header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/index.php on line 1
+[12-Apr-2024 14:07:22 UTC] PHP Warning:  include_once(/inc/footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/index.php on line 12
+[12-Apr-2024 14:07:22 UTC] PHP Warning:  include_once(): Failed opening '/inc/footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/index.php on line 12
+[12-Apr-2024 14:07:23 UTC] PHP Warning:  include_once(/inc/header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/index.php on line 1
+[12-Apr-2024 14:07:23 UTC] PHP Warning:  include_once(): Failed opening '/inc/header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/index.php on line 1
+[12-Apr-2024 14:07:23 UTC] PHP Warning:  include_once(/inc/footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/index.php on line 12
+[12-Apr-2024 14:07:23 UTC] PHP Warning:  include_once(): Failed opening '/inc/footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/index.php on line 12
+[12-Apr-2024 14:09:24 UTC] PHP Warning:  include_once(/inc/header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/index.php on line 1
+[12-Apr-2024 14:09:24 UTC] PHP Warning:  include_once(): Failed opening '/inc/header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/index.php on line 1
+[12-Apr-2024 14:09:24 UTC] PHP Warning:  include_once(/inc/footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/index.php on line 12
+[12-Apr-2024 14:09:24 UTC] PHP Warning:  include_once(): Failed opening '/inc/footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/index.php on line 12
+[12-Apr-2024 14:36:04 UTC] PHP Warning:  include(check_login.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:36:04 UTC] PHP Warning:  include(check_login.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:36:04 UTC] PHP Warning:  include(): Failed opening 'check_login.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:36:06 UTC] PHP Warning:  include(check_login.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:36:06 UTC] PHP Warning:  include(check_login.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:36:06 UTC] PHP Warning:  include(): Failed opening 'check_login.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:36:06 UTC] PHP Warning:  include(check_login.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:36:06 UTC] PHP Warning:  include(check_login.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:36:06 UTC] PHP Warning:  include(): Failed opening 'check_login.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:39:41 UTC] PHP Warning:  include(check_login.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:39:41 UTC] PHP Warning:  include(check_login.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:39:41 UTC] PHP Warning:  include(): Failed opening 'check_login.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:39:41 UTC] PHP Warning:  include(../../config/appsettings.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 9
+[12-Apr-2024 14:39:41 UTC] PHP Warning:  include(../../config/appsettings.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 9
+[12-Apr-2024 14:39:41 UTC] PHP Warning:  include(): Failed opening '../../config/appsettings.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/inc/header.php on line 9
+[12-Apr-2024 14:39:41 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/header.php on line 28
+[12-Apr-2024 14:39:41 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/header.php on line 37
+[12-Apr-2024 14:39:41 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/menu.php on line 53
+[12-Apr-2024 14:39:41 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/menu.php on line 54
+[12-Apr-2024 14:39:41 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/menu.php on line 55
+[12-Apr-2024 14:39:41 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/navbar.php on line 33
+[12-Apr-2024 14:39:41 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/admin/index.php on line 9
+[12-Apr-2024 14:39:41 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/footer.php on line 49
+[12-Apr-2024 14:39:41 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/footer.php on line 50
+[12-Apr-2024 14:39:41 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/footer.php on line 53
+[12-Apr-2024 14:39:41 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/footer.php on line 56
+[12-Apr-2024 14:39:59 UTC] PHP Warning:  include(check_login.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:39:59 UTC] PHP Warning:  include(check_login.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:39:59 UTC] PHP Warning:  include(): Failed opening 'check_login.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/inc/header.php on line 3
+[12-Apr-2024 14:39:59 UTC] PHP Warning:  include(../../config/appsettings.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 9
+[12-Apr-2024 14:39:59 UTC] PHP Warning:  include(../../config/appsettings.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/inc/header.php on line 9
+[12-Apr-2024 14:39:59 UTC] PHP Warning:  include(): Failed opening '../../config/appsettings.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/inc/header.php on line 9
+[12-Apr-2024 14:39:59 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/header.php on line 28
+[12-Apr-2024 14:39:59 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/header.php on line 37
+[12-Apr-2024 14:39:59 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/menu.php on line 53
+[12-Apr-2024 14:39:59 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/menu.php on line 54
+[12-Apr-2024 14:39:59 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/menu.php on line 55
+[12-Apr-2024 14:39:59 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/navbar.php on line 33
+[12-Apr-2024 14:39:59 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/admin/index.php on line 9
+[12-Apr-2024 14:39:59 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/footer.php on line 49
+[12-Apr-2024 14:39:59 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/footer.php on line 50
+[12-Apr-2024 14:39:59 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/footer.php on line 53
+[12-Apr-2024 14:39:59 UTC] PHP Notice:  Undefined variable: baseurl in /home/slmyid/public_html/joki/new/inc/footer.php on line 56
+[12-Apr-2024 17:13:09 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 2
+[12-Apr-2024 17:13:09 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 2
+[12-Apr-2024 17:13:09 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 5
+[12-Apr-2024 17:13:09 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 5
+[12-Apr-2024 17:13:09 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 11
+[12-Apr-2024 17:13:09 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 11
+[12-Apr-2024 17:13:09 UTC] PHP Warning:  include_once(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 18
+[12-Apr-2024 17:13:09 UTC] PHP Warning:  include_once(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 18
+[12-Apr-2024 17:13:09 UTC] PHP Notice:  Undefined variable: konek in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 26
+[12-Apr-2024 17:13:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 26
+[12-Apr-2024 17:13:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 27
+[12-Apr-2024 17:13:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 28
+[12-Apr-2024 17:13:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 36
+[12-Apr-2024 17:13:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 41
+[12-Apr-2024 17:13:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 56
+[12-Apr-2024 17:13:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 63
+[12-Apr-2024 17:13:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 73
+[12-Apr-2024 17:13:09 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 118
+[12-Apr-2024 17:13:09 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/produk_edit.php on line 118
+[12-Apr-2024 17:44:54 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/produk_tambah.php on line 2
+[12-Apr-2024 17:44:54 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/produk_tambah.php on line 2
+[12-Apr-2024 17:44:54 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/produk_tambah.php on line 5
+[12-Apr-2024 17:44:54 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/produk_tambah.php on line 5
+[12-Apr-2024 17:44:54 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/produk_tambah.php on line 11
+[12-Apr-2024 17:44:54 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/produk_tambah.php on line 11
+[12-Apr-2024 17:44:54 UTC] PHP Warning:  include_once(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/produk_tambah.php on line 18
+[12-Apr-2024 17:44:54 UTC] PHP Warning:  include_once(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/produk_tambah.php on line 18
+[12-Apr-2024 17:44:54 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/produk_tambah.php on line 112
+[12-Apr-2024 17:44:54 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/produk_tambah.php on line 112
+[12-Apr-2024 22:14:05 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/kriteria_tambah.php on line 1
+[12-Apr-2024 22:14:05 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/kriteria_tambah.php on line 1
+[12-Apr-2024 22:14:05 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/kriteria_tambah.php on line 4
+[12-Apr-2024 22:14:05 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/kriteria_tambah.php on line 4
+[12-Apr-2024 22:14:05 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/kriteria_tambah.php on line 9
+[12-Apr-2024 22:14:05 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/kriteria_tambah.php on line 9
+[12-Apr-2024 22:14:05 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/kriteria_tambah.php on line 18
+[12-Apr-2024 22:14:05 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/kriteria_tambah.php on line 18
+[12-Apr-2024 22:14:05 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/kriteria_tambah.php on line 18
+[12-Apr-2024 22:14:05 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/kriteria_tambah.php on line 85
+[12-Apr-2024 22:14:05 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/kriteria_tambah.php on line 85
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 1
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 1
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 4
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 4
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 9
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 9
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 18
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 18
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 18
+[12-Apr-2024 22:17:43 UTC] PHP Notice:  Undefined variable: konek in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 25
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 25
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 26
+[12-Apr-2024 22:17:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 34
+[12-Apr-2024 22:17:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 42
+[12-Apr-2024 22:17:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 43
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 87
+[12-Apr-2024 22:17:43 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/kriteria_edit.php on line 87
+[12-Apr-2024 22:26:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/slmyid/public_html/joki/new/admin/kriteria_tambah.php on line 76
+[12-Apr-2024 22:34:36 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot.php on line 2
+[12-Apr-2024 22:34:36 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot.php on line 2
+[12-Apr-2024 22:34:36 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot.php on line 5
+[12-Apr-2024 22:34:36 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot.php on line 5
+[12-Apr-2024 22:34:36 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot.php on line 10
+[12-Apr-2024 22:34:36 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot.php on line 10
+[12-Apr-2024 22:34:36 UTC] PHP Warning:  include_once(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot.php on line 18
+[12-Apr-2024 22:34:36 UTC] PHP Warning:  include_once(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot.php on line 18
+[12-Apr-2024 22:34:36 UTC] PHP Notice:  Undefined variable: konek in /home/slmyid/public_html/joki/new/admin/bobot.php on line 41
+[12-Apr-2024 22:34:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/slmyid/public_html/joki/new/admin/bobot.php on line 41
+[12-Apr-2024 22:34:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/slmyid/public_html/joki/new/admin/bobot.php on line 42
+[12-Apr-2024 22:34:36 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot.php on line 83
+[12-Apr-2024 22:34:36 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot.php on line 83
+[12-Apr-2024 22:37:20 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 1
+[12-Apr-2024 22:37:20 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 1
+[12-Apr-2024 22:37:20 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 4
+[12-Apr-2024 22:37:20 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 4
+[12-Apr-2024 22:37:20 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 9
+[12-Apr-2024 22:37:20 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 9
+[12-Apr-2024 22:37:20 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 18
+[12-Apr-2024 22:37:20 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 18
+[12-Apr-2024 22:37:20 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 18
+[12-Apr-2024 22:37:20 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 81
+[12-Apr-2024 22:37:20 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 81
+[12-Apr-2024 22:37:22 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 1
+[12-Apr-2024 22:37:22 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 1
+[12-Apr-2024 22:37:22 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 4
+[12-Apr-2024 22:37:22 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 4
+[12-Apr-2024 22:37:22 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 9
+[12-Apr-2024 22:37:22 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 9
+[12-Apr-2024 22:37:22 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 18
+[12-Apr-2024 22:37:22 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 18
+[12-Apr-2024 22:37:22 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 18
+[12-Apr-2024 22:37:22 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 81
+[12-Apr-2024 22:37:22 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 81
+[12-Apr-2024 22:37:41 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 1
+[12-Apr-2024 22:37:41 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 1
+[12-Apr-2024 22:37:41 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 4
+[12-Apr-2024 22:37:41 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 4
+[12-Apr-2024 22:37:41 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 9
+[12-Apr-2024 22:37:41 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 9
+[12-Apr-2024 22:37:41 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 18
+[12-Apr-2024 22:37:41 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 18
+[12-Apr-2024 22:37:41 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 18
+[12-Apr-2024 22:37:41 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 81
+[12-Apr-2024 22:37:41 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 81
+[12-Apr-2024 22:39:33 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 1
+[12-Apr-2024 22:39:33 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 1
+[12-Apr-2024 22:39:33 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 4
+[12-Apr-2024 22:39:33 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 4
+[12-Apr-2024 22:39:33 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 9
+[12-Apr-2024 22:39:33 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 9
+[12-Apr-2024 22:39:33 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 18
+[12-Apr-2024 22:39:33 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 18
+[12-Apr-2024 22:39:33 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 18
+[12-Apr-2024 22:39:33 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 81
+[12-Apr-2024 22:39:33 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_tambah.php on line 81
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 1
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 1
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 4
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 4
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 9
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 9
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 18
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 18
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 18
+[12-Apr-2024 22:41:31 UTC] PHP Notice:  Undefined variable: konek in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 25
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 25
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 26
+[12-Apr-2024 22:41:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 34
+[12-Apr-2024 22:41:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 39
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 83
+[12-Apr-2024 22:41:31 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/bobot_edit.php on line 83
+[12-Apr-2024 22:56:05 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 1
+[12-Apr-2024 22:56:05 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 1
+[12-Apr-2024 22:56:05 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 4
+[12-Apr-2024 22:56:05 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 4
+[12-Apr-2024 22:56:05 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 10
+[12-Apr-2024 22:56:05 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 10
+[12-Apr-2024 22:56:05 UTC] PHP Warning:  include_once(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 19
+[12-Apr-2024 22:56:05 UTC] PHP Warning:  include_once(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 19
+[12-Apr-2024 22:56:05 UTC] PHP Notice:  Undefined variable: konek in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 31
+[12-Apr-2024 22:56:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 31
+[12-Apr-2024 22:56:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 32
+[12-Apr-2024 22:56:05 UTC] PHP Notice:  Undefined variable: rows in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 42
+[12-Apr-2024 22:56:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 42
+[12-Apr-2024 22:56:05 UTC] PHP Notice:  Undefined variable: rows in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 47
+[12-Apr-2024 22:56:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 47
+[12-Apr-2024 22:56:05 UTC] PHP Notice:  Undefined variable: rows in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 52
+[12-Apr-2024 22:56:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 52
+[12-Apr-2024 22:56:05 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 94
+[12-Apr-2024 22:56:05 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/himpunan_edit.php on line 94
+[12-Apr-2024 23:01:47 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 1
+[12-Apr-2024 23:01:47 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 1
+[12-Apr-2024 23:01:47 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 4
+[12-Apr-2024 23:01:47 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 4
+[12-Apr-2024 23:01:47 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 10
+[12-Apr-2024 23:01:47 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 10
+[12-Apr-2024 23:01:47 UTC] PHP Warning:  include_once(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 19
+[12-Apr-2024 23:01:47 UTC] PHP Warning:  include_once(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 19
+[12-Apr-2024 23:01:47 UTC] PHP Notice:  Undefined variable: konek in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 28
+[12-Apr-2024 23:01:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 28
+[12-Apr-2024 23:01:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 29
+[12-Apr-2024 23:01:47 UTC] PHP Notice:  Undefined variable: rows in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 39
+[12-Apr-2024 23:01:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 39
+[12-Apr-2024 23:01:47 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 97
+[12-Apr-2024 23:01:47 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/himpunan_tambah.php on line 97
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/analisa.php on line 1
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/analisa.php on line 1
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/analisa.php on line 4
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/analisa.php on line 4
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/analisa.php on line 11
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/analisa.php on line 11
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  include_once(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/analisa.php on line 19
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  include_once(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/analisa.php on line 19
+[12-Apr-2024 23:26:06 UTC] PHP Notice:  Undefined variable: konek in /home/slmyid/public_html/joki/new/admin/analisa.php on line 33
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/slmyid/public_html/joki/new/admin/analisa.php on line 33
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/slmyid/public_html/joki/new/admin/analisa.php on line 36
+[12-Apr-2024 23:26:06 UTC] PHP Notice:  Undefined variable: konek in /home/slmyid/public_html/joki/new/admin/analisa.php on line 41
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/slmyid/public_html/joki/new/admin/analisa.php on line 41
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/slmyid/public_html/joki/new/admin/analisa.php on line 44
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/analisa.php on line 93
+[12-Apr-2024 23:26:06 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/analisa.php on line 93
+[12-Apr-2024 23:31:13 UTC] PHP Warning:  include_once(head.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 1
+[12-Apr-2024 23:31:13 UTC] PHP Warning:  include_once(): Failed opening 'head.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 1
+[12-Apr-2024 23:31:13 UTC] PHP Warning:  include_once(navbar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 4
+[12-Apr-2024 23:31:13 UTC] PHP Warning:  include_once(): Failed opening 'navbar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 4
+[12-Apr-2024 23:31:13 UTC] PHP Warning:  include_once(sidebar.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 10
+[12-Apr-2024 23:31:13 UTC] PHP Warning:  include_once(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 10
+[12-Apr-2024 23:31:13 UTC] PHP Warning:  include_once(header.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 17
+[12-Apr-2024 23:31:13 UTC] PHP Warning:  include_once(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 17
+[12-Apr-2024 23:31:13 UTC] PHP Notice:  Undefined variable: konek in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 27
+[12-Apr-2024 23:31:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 27
+[12-Apr-2024 23:31:13 UTC] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, null given in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 33
+[12-Apr-2024 23:31:13 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 535
+[12-Apr-2024 23:31:13 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 535
