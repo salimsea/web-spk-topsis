@@ -1,5 +1,7 @@
 # Aplikasi SPK Metode TOPSIS
 
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=salimsea.web-spk-topsis)
+
 ## Demo Aplikasi
 <img width="500" alt="image" src="https://github.com/salimsea/web-spk-topsis/assets/49223890/140c1297-3ddf-4da3-b230-eb9293c55de3">
 
