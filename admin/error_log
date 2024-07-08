@@ -251,3 +251,4 @@
 [12-Apr-2024 23:31:13 UTC] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, null given in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 33
 [12-Apr-2024 23:31:13 UTC] PHP Warning:  include_once(footer.php): failed to open stream: No such file or directory in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 535
 [12-Apr-2024 23:31:13 UTC] PHP Warning:  include_once(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/slmyid/public_html/joki/new/admin/analisa_hasil.php on line 535
+[08-Jul-2024 19:19:31 Asia/Jakarta] PHP Notice:  Undefined index: key in /home/slmyid/skripsi-salim/admin/api.php on line 12

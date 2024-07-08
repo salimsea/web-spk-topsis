@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 25, 2024 at 07:46 AM
+-- Generation Time: Jul 08, 2024 at 07:26 PM
 -- Server version: 8.0.34
 -- PHP Version: 8.1.16
 
@@ -297,7 +297,7 @@ ALTER TABLE `tbl_kriteria`
 -- AUTO_INCREMENT for table `tbl_produk`
 --
 ALTER TABLE `tbl_produk`
-  MODIFY `id_produk` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id_produk` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `tbl_user`

@@ -394,16 +394,16 @@
 							$i=0;
 							$dmin=array();
 							foreach ($data as $nama => $krit) {
-							echo "<tr>
-							<td>".(++$i)."</td>
-							<th>A{$i}</th>
-							<td>{$nama}</td>";
-							foreach ($kriteria as $k) {
-								if (!isset($dmin[$i-1])) $dmin[$i-1]=0;
-								$dmin[$i-1]+=pow($ymin[$k]-$y[$k][$i-1],2);
-							}
-							echo "<td>".round(sqrt($dmin[$i-1]),6)."</td>
-							</tr>";
+    							echo "<tr>
+    							<td>".(++$i)."</td>
+    							<th>A{$i}</th>
+    							<td>{$nama}</td>";
+    							foreach ($kriteria as $k) {
+    								if (!isset($dmin[$i-1])) $dmin[$i-1]=0;
+    								$dmin[$i-1]+=pow($ymin[$k]-$y[$k][$i-1],2);
+    							}
+    							echo "<td>".round(sqrt($dmin[$i-1]),6)."</td>
+    							</tr>";
 							}
 							?>
 							</tbody>
@@ -443,15 +443,18 @@
 							$i=0;
 							$V=array();
 							foreach ($data as $nama => $krit) {
-							echo "<tr>
-							<td>".(++$i)."</td>
-							<th>A{$i}</th>
-							<td>{$nama}</td>";
-							foreach ($kriteria as $k) {
-								$V[$i-1]=$dmin[$i-1]/($dmin[$i-1]+$dplus[$i-1]);
-							}
-							echo "<td>{$V[$i-1]}</td></tr>";
-							}
+                                echo "<tr>
+                                <td>".(++$i)."</td>
+                                <th>A{$i}</th>
+                                <td>{$nama}</td>";
+                                $V[$i-1] = $dmin[$i-1] / ($dmin[$i-1] + $dplus[$i-1]);
+                                $jum = round(sqrt($dmin[$i-1]),6). "+" .round(sqrt($dplus[$i-1]),6);
+                                $jum = round(sqrt($dmin[$i-1]),6)." / (" .$jum.")";
+                                
+                                $plus = round(sqrt($dmin[$i-1]),6) + round(sqrt($dplus[$i-1]),6);
+                                $bagi = round(sqrt($dmin[$i-1]),6) / $plus; 
+                                echo "<td>".$jum." = <b>".$bagi."</b></td></tr>";
+                            }
 							?>
 							</tbody>
 						</table>
@@ -487,7 +490,7 @@
 						$i = 0;
 						
 						// Mengurutkan array $V berdasarkan nilai terendah
-						array_multisort($V, SORT_ASC, $data);
+						array_multisort($V, SORT_DESC, $data);
 					
 						$i = 0;
 						foreach ($data as $nama => $krit) {

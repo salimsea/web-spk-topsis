@@ -84,10 +84,20 @@
         <span>Hasil Analisa TOPSIS</span></a
       >
     </li>
-     
-
-    <!-- Divider -->
+    
+     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block" />
+    
+    <div class="sidebar-heading">INTEGRASI</div>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="<?=$baseurl;?>/admin/api_docs.php">
+        <i class="fas fa-fw fa-fire"></i>
+        <span>API Dokumentasi</span></a
+      >
+    </li>
+
+   
 
     <!-- Sidebar Toggler (Sidebar) -->
     <div class="text-center d-none d-md-inline">

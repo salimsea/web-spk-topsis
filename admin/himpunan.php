@@ -16,7 +16,9 @@
                 
                 <?php
                 	$id = isset($_GET['id_kriteria']) ? $_GET['id_kriteria'] : false;
+					// menampilkan data kriteria
 					$result = mysqli_query($konek,"SELECT * FROM tbl_kriteria");
+					// membuat combobox
 					echo "<div class=\"row\"><div class=\"col-md-4\">";
 					echo "<select name=\"prdId\" class=\"form-control\" onchange=\"changeValue(this.value)\">";
 					echo "<option>- Pilih -</option>";

@@ -54,6 +54,7 @@ if(isset($_POST['simpan'])){
                             Tambah Bobot
                         </button>
                     </div>
+                   
                 </form>
             
                 <!--CONTENTHERE-->
