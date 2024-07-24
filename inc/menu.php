@@ -12,10 +12,8 @@
       <div class="sidebar-brand-text mx-3">TOPSIS <sup>DSS</sup></div>
     </a>
 
-    <!-- Divider -->
     <hr class="sidebar-divider my-0" />
 
-    <!-- Nav Item - Dashboard -->
     <li class="nav-item">
       <a class="nav-link" href="<?=$baseurl;?>/admin">
         <i class="fas fa-fw fa-tachometer-alt"></i>
@@ -23,11 +21,11 @@
       >
     </li>
 
-    <!-- Divider -->
     <hr class="sidebar-divider" />
 
 
-    <!-- Heading -->
+    <?php if($_SESSION['level'] == 'admin') { ?>
+
     <div class="sidebar-heading">MASTER DATA</div>
     
     <li class="nav-item">
@@ -52,7 +50,6 @@
     </li>
     
     
-    <!-- Divider -->
     <hr class="sidebar-divider" />
     
     <div class="sidebar-heading">KLASIFIKASI DATA</div>
@@ -85,7 +82,6 @@
       >
     </li>
     
-     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block" />
     
     <div class="sidebar-heading">INTEGRASI</div>
@@ -97,11 +93,22 @@
       >
     </li>
 
-   
+    <?php } else if($_SESSION['level'] == 'penjual') { ?>
+    <li class="nav-item">
+      <a class="nav-link" href="<?=$baseurl;?>/admin/analisa.php">
+        <i class="fas fa-fw fa-rocket"></i>
+        <span>Analisa TOPSIS</span></a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="<?=$baseurl;?>/admin/analisa_hasil.php">
+        <i class="fas fa-fw fa-table"></i>
+        <span>Hasil Analisa TOPSIS</span></a
+      >
+    </li>
+    <?php } ?>
 
-    <!-- Sidebar Toggler (Sidebar) -->
     <div class="text-center d-none d-md-inline">
       <button class="rounded-circle border-0" id="sidebarToggle"></button>
     </div>
-  </ul>
-  <!-- End of Sidebar -->
+</ul>

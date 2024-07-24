@@ -2,10 +2,10 @@
 
 <?php
 if(isset($_POST['simpan'])){
-    $cek_data = mysqli_num_rows(mysqli_query($konek,"SELECT nip FROM tbl_produk WHERE nama='$_POST[nama]'"));
+    $cek_data = mysqli_num_rows(mysqli_query($konek,"SELECT nama FROM tbl_produk WHERE nama='$_POST[nama]'"));
     if ($cek_data > 0){
         echo "<script>window.alert('Data sudah ada! Mohon ulangi.');
-                window.location=(href='pegawai_tambah.php')</script>";
+                window.location=(href='produk_tambah.php')</script>";
     } else {
         $sql = "INSERT INTO tbl_produk VALUES('','$_POST[nama]','$_POST[harga]','$_POST[stok]',
                 '$_POST[terjual]','$_POST[gudang]','$_POST[rating]')";
@@ -35,25 +35,25 @@ if(isset($_POST['simpan'])){
                     <div class="form-group row">
                         <label for="staticEmail" class="col-sm-2 col-form-label">Produk</label>
                         <div class="col-sm-10">
-                          <input type="text" class="form-control" id="nama" name="nama" >
+                          <input type="text" class="form-control" id="nama" name="nama" placeholder="Ketikkan Nama Produk..." >
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="staticEmail" class="col-sm-2 col-form-label">Harga</label>
                         <div class="col-sm-10">
-                          <input type="number" class="form-control" id="harga" name="harga" >
+                          <input type="number" class="form-control" id="harga" name="harga" placeholder="Ketikkan Harga Produk...">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="staticEmail" class="col-sm-2 col-form-label">Stok</label>
                         <div class="col-sm-10">
-                          <input type="number" class="form-control" id="stok" name="stok" >
+                          <input type="number" class="form-control" id="stok" name="stok" placeholder="Ketikkan Stok Produk...">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="staticEmail" class="col-sm-2 col-form-label">Terjual</label>
                         <div class="col-sm-10">
-                          <input type="number" class="form-control" id="terjual" name="terjual">
+                          <input type="number" class="form-control" id="terjual" name="terjual" placeholder="Ketikkan Terjual Produk...">
                         </div>
                     </div>
                     <div class="form-group row">

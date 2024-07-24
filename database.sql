@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: Jul 08, 2024 at 07:26 PM
--- Server version: 8.0.34
--- PHP Version: 8.1.16
+-- Host: 127.0.0.1
+-- Waktu pembuatan: 24 Jul 2024 pada 02.55
+-- Versi server: 10.4.24-MariaDB
+-- Versi PHP: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,23 +18,23 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `slmyid_skripsi_salim`
+-- Database: `skripsi_salim`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_bobot`
+-- Struktur dari tabel `tbl_bobot`
 --
 
 CREATE TABLE `tbl_bobot` (
-  `id_bobot` int NOT NULL,
+  `id_bobot` int(11) NOT NULL,
   `nama_bobot` varchar(50) NOT NULL,
-  `nilai` int NOT NULL
+  `nilai` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `tbl_bobot`
+-- Dumping data untuk tabel `tbl_bobot`
 --
 
 INSERT INTO `tbl_bobot` (`id_bobot`, `nama_bobot`, `nilai`) VALUES
@@ -47,18 +47,18 @@ INSERT INTO `tbl_bobot` (`id_bobot`, `nama_bobot`, `nilai`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_himpunan`
+-- Struktur dari tabel `tbl_himpunan`
 --
 
 CREATE TABLE `tbl_himpunan` (
-  `id_himpunan` int NOT NULL,
-  `id_kriteria` int NOT NULL,
+  `id_himpunan` int(11) NOT NULL,
+  `id_kriteria` int(11) NOT NULL,
   `nama` varchar(50) NOT NULL,
   `nilai` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `tbl_himpunan`
+-- Dumping data untuk tabel `tbl_himpunan`
 --
 
 INSERT INTO `tbl_himpunan` (`id_himpunan`, `id_kriteria`, `nama`, `nilai`) VALUES
@@ -92,16 +92,16 @@ INSERT INTO `tbl_himpunan` (`id_himpunan`, `id_kriteria`, `nama`, `nilai`) VALUE
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_klasifikasi`
+-- Struktur dari tabel `tbl_klasifikasi`
 --
 
 CREATE TABLE `tbl_klasifikasi` (
-  `id_produk` int NOT NULL,
-  `id_himpunan` int NOT NULL
+  `id_produk` int(11) NOT NULL,
+  `id_himpunan` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `tbl_klasifikasi`
+-- Dumping data untuk tabel `tbl_klasifikasi`
 --
 
 INSERT INTO `tbl_klasifikasi` (`id_produk`, `id_himpunan`) VALUES
@@ -164,18 +164,18 @@ INSERT INTO `tbl_klasifikasi` (`id_produk`, `id_himpunan`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_kriteria`
+-- Struktur dari tabel `tbl_kriteria`
 --
 
 CREATE TABLE `tbl_kriteria` (
-  `id_kriteria` int NOT NULL,
+  `id_kriteria` int(11) NOT NULL,
   `nama_kriteria` varchar(50) NOT NULL,
   `atribut` enum('benefit','cost') NOT NULL,
-  `bobot_kriteria` int NOT NULL
+  `bobot_kriteria` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `tbl_kriteria`
+-- Dumping data untuk tabel `tbl_kriteria`
 --
 
 INSERT INTO `tbl_kriteria` (`id_kriteria`, `nama_kriteria`, `atribut`, `bobot_kriteria`) VALUES
@@ -183,26 +183,26 @@ INSERT INTO `tbl_kriteria` (`id_kriteria`, `nama_kriteria`, `atribut`, `bobot_kr
 (2, 'Stok', 'benefit', 3),
 (3, 'Terjual', 'benefit', 3),
 (4, 'Gudang', 'benefit', 4),
-(5, 'Rating', 'cost', 5);
+(5, 'Rating', 'benefit', 5);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_produk`
+-- Struktur dari tabel `tbl_produk`
 --
 
 CREATE TABLE `tbl_produk` (
-  `id_produk` int NOT NULL,
-  `nama` varchar(255) NOT NULL,
-  `harga` int NOT NULL,
-  `stok` int NOT NULL,
-  `terjual` int NOT NULL,
-  `gudang` varchar(100) NOT NULL,
+  `id_produk` int(11) NOT NULL,
+  `nama` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `harga` int(11) NOT NULL,
+  `stok` int(11) NOT NULL,
+  `terjual` int(11) NOT NULL,
+  `gudang` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `rating` tinyint(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `tbl_produk`
+-- Dumping data untuk tabel `tbl_produk`
 --
 
 INSERT INTO `tbl_produk` (`id_produk`, `nama`, `harga`, `stok`, `terjual`, `gudang`, `rating`) VALUES
@@ -220,90 +220,92 @@ INSERT INTO `tbl_produk` (`id_produk`, `nama`, `harga`, `stok`, `terjual`, `guda
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_user`
+-- Struktur dari tabel `tbl_user`
 --
 
 CREATE TABLE `tbl_user` (
-  `id` int NOT NULL,
+  `id` int(11) NOT NULL,
   `username` varchar(50) NOT NULL,
   `password` varchar(100) NOT NULL,
-  `nama` varchar(50) NOT NULL
+  `nama` varchar(50) NOT NULL,
+  `level` enum('admin','penjual') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `tbl_user`
+-- Dumping data untuk tabel `tbl_user`
 --
 
-INSERT INTO `tbl_user` (`id`, `username`, `password`, `nama`) VALUES
-(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Admin 1');
+INSERT INTO `tbl_user` (`id`, `username`, `password`, `nama`, `level`) VALUES
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Admin 1', 'admin'),
+(2, 'penjual', 'penjual', 'Penjual', 'penjual');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `tbl_bobot`
+-- Indeks untuk tabel `tbl_bobot`
 --
 ALTER TABLE `tbl_bobot`
   ADD PRIMARY KEY (`id_bobot`);
 
 --
--- Indexes for table `tbl_himpunan`
+-- Indeks untuk tabel `tbl_himpunan`
 --
 ALTER TABLE `tbl_himpunan`
   ADD PRIMARY KEY (`id_himpunan`);
 
 --
--- Indexes for table `tbl_kriteria`
+-- Indeks untuk tabel `tbl_kriteria`
 --
 ALTER TABLE `tbl_kriteria`
   ADD PRIMARY KEY (`id_kriteria`);
 
 --
--- Indexes for table `tbl_produk`
+-- Indeks untuk tabel `tbl_produk`
 --
 ALTER TABLE `tbl_produk`
   ADD PRIMARY KEY (`id_produk`);
 
 --
--- Indexes for table `tbl_user`
+-- Indeks untuk tabel `tbl_user`
 --
 ALTER TABLE `tbl_user`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `tbl_bobot`
+-- AUTO_INCREMENT untuk tabel `tbl_bobot`
 --
 ALTER TABLE `tbl_bobot`
-  MODIFY `id_bobot` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id_bobot` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
--- AUTO_INCREMENT for table `tbl_himpunan`
+-- AUTO_INCREMENT untuk tabel `tbl_himpunan`
 --
 ALTER TABLE `tbl_himpunan`
-  MODIFY `id_himpunan` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
+  MODIFY `id_himpunan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
 --
--- AUTO_INCREMENT for table `tbl_kriteria`
+-- AUTO_INCREMENT untuk tabel `tbl_kriteria`
 --
 ALTER TABLE `tbl_kriteria`
-  MODIFY `id_kriteria` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id_kriteria` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
--- AUTO_INCREMENT for table `tbl_produk`
+-- AUTO_INCREMENT untuk tabel `tbl_produk`
 --
 ALTER TABLE `tbl_produk`
-  MODIFY `id_produk` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
--- AUTO_INCREMENT for table `tbl_user`
+-- AUTO_INCREMENT untuk tabel `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

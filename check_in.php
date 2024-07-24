@@ -14,6 +14,7 @@ if(mysqli_num_rows($login)==1){
 	$_SESSION['username']=$data['username'];
 	$_SESSION['password']=$data['password'];
 	$_SESSION['nama']=$data['nama'];
+	$_SESSION['level']=$data['level'];
 
 	header('location:admin/index.php');
 } else {

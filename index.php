@@ -1,4 +1,6 @@
-<? include "/config/appsettings.php"; ?>
+<?php
+include "./config/appsettings.php";
+?>
 
 
 <!DOCTYPE html>
@@ -31,7 +33,7 @@
   </head>
  
 
-  <body class="bg-gradient-primary">
+  <body class="d-flex bg-gradient-primary justify-content-center align-items-center" style="height: 100vh;">
     <div class="container">
       <!-- Outer Row -->
       <div class="row justify-content-center">
@@ -41,11 +43,12 @@
                 
               <!-- Nested Row within Card Body -->
               <div class="row">
-                <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
-                <div class="col-lg-6">
-                  <div class="p-5">
+                <div class="col-lg-7 d-none d-lg-block bg-login-image"></div>
+                <div class="col-lg-5">
+                  <div class="p-4">
                     <div class="text-center">
-                      <h1 class="h4 text-gray-900 mb-4">Selamat Datang!</h1>
+                      <h1 class="h4 text-gray-900 font-weight-bold">Selamat Datang!</h1>
+                      <p class="mb-4">Aplikasi Sistem Pendukung Keputusan</p>
                     </div>
                     
                      
